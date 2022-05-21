@@ -9,4 +9,7 @@ Check this out
 
 [[02 georgia-tech/ECE2026/05.16 Lecture - ECE2026|05.16 Lecture - ECE2026]]
 
-xddddd
+ok how about this asdasdASd
+
+asdad
+[[02 georgia-tech/MATH1554/05.16 Lecture - MATH1554|05.16 Lecture - MATH1554]]

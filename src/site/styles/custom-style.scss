@@ -5,12 +5,6 @@ body {
    ***/
 
     
-
-    .admonition.admonition-plugin {
-        padding: 15px;
-
-    }
-    
     img {
         border-radius: 4px;
     }
@@ -24,7 +18,7 @@ body {
         page-break-inside: avoid;
         background-color: unset;
         border: 1px solid var(--admonition-color);
-        border-left: 5px solid rgb(var(--admonition-color));
+        border-left: 5px solid var(--admonition-color);
         border-radius: 0 4px 4px 0;
         box-shadow: var(--elevation-1);
     }

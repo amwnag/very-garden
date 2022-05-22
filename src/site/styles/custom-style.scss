@@ -4,6 +4,10 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
 
+    @font-face {
+        font-family: "LucideIcons";
+        src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format("truetype");
+    }
     
     img {
         border-radius: 4px;

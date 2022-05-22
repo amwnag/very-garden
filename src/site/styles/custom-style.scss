@@ -4,9 +4,200 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
 
-    @font-face {
-        font-family: "LucideIcons";
-        src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format("truetype");
+    div.language-ad-note,
+    div.callout-note {
+        .admonition-title::before {
+            content: url("https://fonts.gstatic.com/s/i/materialicons/edit/v12/24px.svg");
+        }
+    }
+
+    div.language-ad-tip,
+    div.callout-tip {
+        .admonition-title::before {
+            content: url("https://fonts.gstatic.com/s/i/materialicons/lightbulb/v18/24px.svg");
+        }
+    }
+
+    div.language-ad-warning,
+    div.callout-warning {
+        .admonition-title::before {
+            content: url("https://fonts.gstatic.com/s/i/materialicons/warning/v17/24px.svg");
+        }
+    }
+
+    div.language-ad-important,
+    div.callout-important {
+        .admonition-title::before {
+            content: url("https://fonts.gstatic.com/s/i/materialicons/local_fire_department/v14/24px.svg");
+        }
+    }
+
+    div.language-ad-caution,
+    div.callout-caution {
+        .admonition-title::before {
+            content: "⚠️";
+        }
+    }
+
+    div.language-ad-info,
+    div.callout-info {
+        .admonition-title::before {
+            content: "ℹ";
+        }
+    }
+
+    div.language-ad-example,
+    div.callout-example {
+        .admonition-title::before {
+            content: url("https://fonts.gstatic.com/s/i/materialicons/view_list/v14/24px.svg");
+        }
+    }
+
+    div.language-ad-seealso,
+    div.callout-seealso {
+        .admonition-title::before {
+            content: "🖊️";
+        }
+    }
+
+    div.language-ad-abstract,
+    div.callout-abstract {
+        .admonition-title::before {
+            content: '📚'
+        }
+    }
+
+    div.language-ad-summary,
+    div.callout-summary {
+        .admonition-title::before {
+            content: '📚'
+        }
+    }
+
+    div.language-ad-tldr,
+    div.callout-tldr {
+        .admonition-title::before {
+            content: '📚'
+        }
+    }
+
+    div.language-ad-todo,
+    div.callout-todo {
+        .admonition-title::before {
+            content: '☑️'
+        }
+    }
+
+    div.language-ad-hint,
+    div.callout-hint {
+        .admonition-title::before {
+            content: '🔥'
+        }
+    }
+
+    div.language-ad-success,
+    div.callout-success {
+        .admonition-title::before {
+            content: ✅
+        }
+    }
+
+    div.language-ad-check,
+    div.callout-check {
+        .admonition-title::before {
+            content: '✅'
+        }
+    }
+
+    div.language-ad-done,
+    div.callout-done {
+        .admonition-title::before {
+            content: '✅'
+        }
+    }
+
+    div.language-ad-question,
+    div.callout-question {
+        .admonition-title::before {
+            content: '❓'
+        }
+    }
+
+    div.language-ad-help,
+    div.callout-help {
+        .admonition-title::before {
+            content: '❓'
+        }
+    }
+
+    div.language-ad-faq,
+    div.callout-faq {
+        .admonition-title::before {
+            content: '❓'
+        }
+    }
+
+    div.language-ad-attention,
+    div.callout-attention {
+        .admonition-title::before {
+            content: '⚠️'
+        }
+    }
+
+    div.language-ad-failure,
+    div.callout-failure {
+        .admonition-title::before {
+            content: '❌'
+        }
+    }
+
+    div.language-ad-fail,
+    div.callout-fail {
+        .admonition-title::before {
+            content: '❌'
+        }
+    }
+
+    div.language-ad-missing,
+    div.callout-missing {
+        .admonition-title::before {
+            content: '❌'
+        }
+    }
+
+    div.language-ad-danger,
+    div.callout-danger {
+        .admonition-title::before {
+            content: '⚡'
+        }
+    }
+
+    div.language-ad-error,
+    div.callout-error {
+        .admonition-title::before {
+            content: '⚡'
+        }
+    }
+
+    div.language-ad-bug,
+    div.callout-bug {
+        .admonition-title::before {
+            content: '🐞'
+        }
+    }
+
+    div.language-ad-quote,
+    div.callout-quote {
+        .admonition-title::before {
+            content: '💬'
+        }
+    }
+
+    div.language-ad-cite,
+    div.callout-cite {
+        .admonition-title::before {
+            content: '💬'
+        }
     }
     
     img {

@@ -3,13 +3,17 @@
 ---
 
 
-# poggy woggy
+# you’ve reached wangopedia
 
-Check this out
+## current courses
 
-[[02 georgia-tech/ECE2026/05.16 Lecture - ECE2026|05.16 Lecture - ECE2026]]
+### ece2026
+- [[02 georgia-tech/ECE2026/05.16 Lecture - ECE2026|05.16 Lecture - ECE2026]]
+- [[02 georgia-tech/ECE2026/05.18 Lecture - ECE2026|05.18 Lecture - ECE2026]]
 
-ok how about this asdasdASd
+### math1554
+- [[02 georgia-tech/MATH1554/05.16 Lecture - MATH1554|05.16 Lecture - MATH1554]]
+- [[02 georgia-tech/MATH1554/05.18 Lecture - MATH1554|05.18 Lecture - MATH1554]]
 
-asdad
-[[02 georgia-tech/MATH1554/05.16 Lecture - MATH1554|05.16 Lecture - MATH1554]]
+## past courses
+(currently unpublished)

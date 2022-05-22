@@ -3,19 +3,21 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+
     
 
-.callout {
-    --callout-color: 68, 138, 255;
-    --callout-icon: lucide-pencil;
-}
+    .admonition.admonition-plugin {
+        padding: 10px;
+
+    }
+
+    div.callout-important .admonition-title::before {
+      content: "⭐";
+    }
+    
+    img {
+        border-radius: 4px;
+    }
     
     /***
       CUSTOM STYLING ENDS HERE

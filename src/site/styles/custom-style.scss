@@ -1,0 +1,173 @@
+body {
+    /***
+      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
+      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+   ***/
+    
+    img {
+        border-radius: 4px;
+    }
+    
+    
+    .admonition.admonition-plugin {
+        --elevation-1: 0 2px 6px 0 rgba(0,0,0,.2);
+        margin: 24px 10px;
+        padding: 10px 15px;
+        overflow: hidden;
+        page-break-inside: avoid;
+        background-color: unset;
+        border: 1px solid var(--admonition-color);
+        border-top: 10px solid var(--admonition-color);
+        border-radius: 4px;
+        box-shadow: var(--elevation-1);
+    }
+    
+    .admonition-title {
+        font-weight: bold;
+    }
+    
+    div.language-ad-note,
+    div.callout-note {
+        --admonition-color: rgba(68, 138, 255, .5)
+    }
+
+    div.language-ad-seealso,
+    div.callout-seealso {
+        --admonition-color: rgba(68, 138, 255, .5)
+    }
+
+    div.language-ad-abstract,
+    div.callout-abstract {
+        --admonition-color: rgba(0, 176, 255, .5)
+    }
+
+    div.language-ad-summary,
+    div.callout-summary {
+        --admonition-color: rgba(0, 176, 255, .5)
+    }
+
+    div.language-ad-tldr,
+    div.callout-tldr {
+        --admonition-color: rgba(0, 176, 255, .5)
+    }
+
+    div.language-ad-info,
+    div.callout-info {
+        --admonition-color: rgba(0, 184, 212, .5)
+    }
+
+    div.language-ad-todo,
+    div.callout-todo {
+        --admonition-color: rgba(0, 184, 212, .5)
+    }
+
+    div.language-ad-tip,
+    div.callout-tip {
+        --admonition-color: rgba(0, 191, 165, .5)
+    }
+
+    div.language-ad-hint,
+    div.callout-hint {
+        --admonition-color: rgba(0, 191, 165, .5)
+    }
+
+    div.language-ad-important,
+    div.callout-important {
+        --admonition-color: rgba(0, 191, 165, .5)
+    }
+
+    div.language-ad-success,
+    div.callout-success {
+        --admonition-color: rgba(0, 200, 83, .5)
+    }
+
+    div.language-ad-check,
+    div.callout-check {
+        --admonition-color: rgba(0, 200, 83, .5)
+    }
+
+    div.language-ad-done,
+    div.callout-done {
+        --admonition-color: rgba(0, 200, 83, .5)
+    }
+
+    div.language-ad-question,
+    div.callout-question {
+        --admonition-color: rgba(100, 221, 23, .5)
+    }
+
+    div.language-ad-help,
+    div.callout-help {
+        --admonition-color: rgba(100, 221, 23, .5)
+    }
+
+    div.language-ad-faq,
+    div.callout-faq {
+        --admonition-color: rgba(100, 221, 23, .5)
+    }
+
+    div.language-ad-warning,
+    div.callout-warning {
+        --admonition-color: rgba(255, 145, 0, .5)
+    }
+
+    div.language-ad-caution,
+    div.callout-caution {
+        --admonition-color: rgba(255, 145, 0, .5)
+    }
+
+    div.language-ad-attention,
+    div.callout-attention {
+        --admonition-color: rgba(255, 145, 0, .5)
+    }
+
+    div.language-ad-failure,
+    div.callout-failure {
+        --admonition-color: rgba(255, 82, 82, .5)
+    }
+
+    div.language-ad-fail,
+    div.callout-fail {
+        --admonition-color: rgba(255, 82, 82, .5)
+    }
+
+    div.language-ad-missing,
+    div.callout-missing {
+        --admonition-color: rgba(255, 82, 82, .5)
+    }
+
+    div.language-ad-danger,
+    div.callout-danger {
+        --admonition-color: rgba(255, 23, 68, .5)
+    }
+
+    div.language-ad-error,
+    div.callout-error {
+        --admonition-color: rgba(255, 23, 68, .5)
+    }
+
+    div.language-ad-bug,
+    div.callout-bug {
+        --admonition-color: rgba(245, 0, 87, .5)
+    }
+
+    div.language-ad-example,
+    div.callout-example {
+        --admonition-color: rgba(124, 77, 255, .5)
+    }
+
+    div.language-ad-quote,
+    div.callout-quote {
+        --admonition-color: rgba(158, 158, 158, .5)
+    }
+
+    div.language-ad-cite,
+    div.callout-cite {
+        --admonition-color: rgba(158, 158, 158, .5)
+    }
+    
+    /***
+      CUSTOM STYLING ENDS HERE
+   ***/
+    
+}
